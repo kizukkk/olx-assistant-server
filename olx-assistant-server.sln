@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A040A165-E41D-427B-BDD5-95CDE605E880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olx-assistant-api", "src\olx-assistant-api\olx-assistant-api.csproj", "{AB1AF2E8-8053-4987-AEAE-D659F040C6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olx-webscraping", "src\olx-webscraping\olx-webscraping.csproj", "{274D8616-6DA2-4EA1-B19A-6D15BF08E15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1AF2E8-8053-4987-AEAE-D659F040C6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1AF2E8-8053-4987-AEAE-D659F040C6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1AF2E8-8053-4987-AEAE-D659F040C6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1AF2E8-8053-4987-AEAE-D659F040C6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274D8616-6DA2-4EA1-B19A-6D15BF08E15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274D8616-6DA2-4EA1-B19A-6D15BF08E15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274D8616-6DA2-4EA1-B19A-6D15BF08E15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274D8616-6DA2-4EA1-B19A-6D15BF08E15B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB1AF2E8-8053-4987-AEAE-D659F040C6F6} = {A040A165-E41D-427B-BDD5-95CDE605E880}
+		{274D8616-6DA2-4EA1-B19A-6D15BF08E15B} = {A040A165-E41D-427B-BDD5-95CDE605E880}
+	EndGlobalSection
+EndGlobal
